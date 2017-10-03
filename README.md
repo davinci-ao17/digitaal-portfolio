@@ -21,7 +21,7 @@ Wie ben ik - deel 2 moet aan de volgende functionele eisen voldoen:
 Technische eisen beschrijven aan welke vakgerichte voorwaarden de opdracht moet voldoen. Bijvoorbeeld dat de opdracht in correct validerend HTML en CSS moet worden geschreven. 
 
 De opdracht moet aan de volgende technische eisen voldoen:
-* Je gebruikt semantische HTML5 `main`, `header`, `nav`, `aside`, `article`, `section`; beperk het gebruik van `div` zoveel mogelijk;
+* Je gebruikt semantische HTML5 `main`, `header`, `nav`, `aside`, `article`, `section`; maak zo beperkt mogelijk gebruik van het `div` element;
 * Alle pagina's zijn gekoppeld aan dezelfde stylesheet(s);
 * Je mag geen bootstrap, w3.css, foundation of een ander framework gebruiken (met andere woorden: al jouw CSS is door jouzelf geschreven) (*);
 * Je hebt een nette mappenstructuur voor de verschillende soorten bestanden in je portfolio;
