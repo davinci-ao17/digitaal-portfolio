@@ -1,0 +1,482 @@
+*{margin:0;padding:0;}
+@media screen and (min-width: 1068px){
+    /*--------------------------------------------------------------------
+                            global css
+    --------------------------------------------------------------------*/
+        
+        body{
+            font-family: sans-serif;
+            background: url(../media/background.png);
+            background-attachment: fixed;
+            color: white;
+
+        }
+        header{
+            margin-bottom: 45%;
+            margin-top: 20%;
+            text-align: center;
+        }
+
+        .header{
+            font-size: 450%;
+        }
+
+        main{
+            margin-top: 5%;
+            padding-bottom: 5%;
+        }
+    /*--------------------------------------------------------------------
+                                menu css
+    --------------------------------------------------------------------*/
+        #menubuttonopen{
+            display: none;
+        }
+        nav.sidemenu{
+            display: none;
+        }
+        #mainblock{
+            min-height: 50%;
+            background-color: black;
+            border-radius: 30px;
+            margin: 3%;
+            text-align: center;  
+            border: solid #222323 10px;
+            overflow: hidden;
+        }
+        nav.menu{
+            padding: 0;
+            margin:0;
+            border: solid black 1px;
+            border-radius: 100%;
+        }
+        nav#menublock{
+            width: 100%;
+            position: sticky;
+            top:0;
+        }
+        .menuitem{
+            float: left; 
+            width: 19%;
+            max-width: 20%;
+            margin-left: 1%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            height:auto;
+            font-size: 0.9em;
+            background-color: grey;
+            border-left: solid black 0px;
+            list-style-type: none;
+            color: white;
+            margin-bottom: 5%;
+            min-height: 25px;
+            max-height: 25px;
+
+        }
+
+        ul#dropdownDD{
+            display: none;
+            background-color: grey;
+            z-index: 3;
+            position: relative;
+            top:26px;
+            left: 0px;
+
+        }
+
+        #dropdownbutton:hover ul#dropdownDD{
+            display: block;
+        }
+
+        ul#dropdownDD li{
+            list-style-type: none;
+        }
+
+        li.dropdownitem{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border: 1px solid black;
+        }
+        ul#dropdownDD a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .menuitem:hover{
+            background-color: #5C5858
+        }
+
+        li.dropdownitem:hover{
+            background-color: #5C5858
+        }
+    
+    /*--------------------------------------------------------------------
+               identieke css voor index.php
+    --------------------------------------------------------------------*/
+     /*   content#schoolitems{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+        }
+
+        content#schoolitems a{
+        color: white;
+        text-decoration: none;
+        display:block;
+        }
+               
+        h3.top{
+        color: #00E1FF;
+        border-bottom: 1px dashed grey;
+        }
+        */
+
+        main#mainpage{
+            margin-top: 5%;
+            padding-bottom: 5%;
+            width: 100%;
+            position: relative;
+        }
+
+        content#left{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 70%;
+        }
+        content#left a{
+            text-decoration: none;
+            color: white;
+            height: 200px;
+            display:block
+        }
+
+        content#right{
+            display: block;
+            background-color: yellow;
+            width: 30%;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        content#right div{
+            background-color: green;
+            margin-bottom: 10px;
+        }
+        section.mainsection{
+            display:block;
+            overflow: hidden;
+            max-width: 40%;
+            width: 40%;
+            border: 2px solid #B40101;
+            border-radius: 10px;
+            margin: 1% 3%;
+            text-align: center;
+            background-color: #252323;
+            height: 300px;
+        }
+
+        img.mainimg{
+            width: 100px;
+            height: auto;
+
+        }
+
+    /*--------------------------------------------------------------------
+               identieke css for opleiding.php
+    --------------------------------------------------------------------*/
+        content#schoolitems{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+        }
+
+        content#schoolitems a{
+        color: white;
+        text-decoration: none;
+        display:block;
+        }
+        section.opleiding{
+            display:block;
+            overflow: hidden;
+            max-width: 40%;
+            width: 40%;
+            border: 2px solid black;
+            margin: 1% 3%;
+            text-align: center;
+            background-color: #252323;
+        }
+
+        h3.top{
+            color: #00E1FF;
+            border-bottom: 1px dashed grey;
+        }
+
+        img.imgsection{
+            width: 100px;
+            height: auto;
+
+        }
+
+    /* -------------------------------------------------------------------*/
+        .homeitem{
+            min-height: 25px;
+            max-height: 25px;
+            float: left; 
+            width: 20%;
+            max-width: 20%;
+            font-size: 0.9em;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            height:auto;
+            background-color: grey;
+            border-left: solid black 0px;
+            list-style-type: none;
+            color: white;
+            margin-bottom: 5%
+                }
+
+        .homeitem:hover{
+            background-color: #5C5858
+        }
+
+        img{
+            width: 20%;
+            height: auto;
+            margin-top: 2%;
+            margin-bottom: 2%;  
+            border-radius: 20%;
+        }
+        p.pp{
+            margin-left: 7%;
+            margin-right: 7%; 
+        }
+
+        ul.c1{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul.c2{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 5%;
+        }
+
+        li.l1{
+            margin-top: 1%;
+            font-weight: bold;
+        }
+
+        li.l2{
+            margin-top: 2%;
+            font-weight: bold;
+        }
+        quote{
+            margin-bottom: 5%;
+            font-style: oblique;
+        }
+
+        footer{
+            margin: 10%;
+            margin-top: 2%;
+            margin-bottom: 8%; 
+        }
+}
+@media screen and (max-width: 1069px){
+    body{
+        font-family: sans-serif;
+        background: url(../media/background.png);
+        background-attachment: fixed;
+        color: white;
+
+    }
+
+    #mobilemenu{
+        width: 100%;
+        background-color: black;
+
+    }
+
+    #menubuttonopen{
+        font-size:30px;
+        cursor:pointer;
+        position: fixed;
+        left: 5px;
+        top: 0;
+    }
+
+    /*menuconfif*/
+        nav.sidemenu {
+            height: 100%; 
+            text-align: center;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;   
+            padding-top: 60px;
+        }
+        
+        nav.sidemenu a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+        
+        nav.sidemenu a:hover {
+            color: #f1f1f1;
+        }
+        
+        nav.sidemenu .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        @media screen and (max-height: 450px) {
+            nav.sidemenu {padding-top: 15px;}
+            nav.sidemenu a {font-size: 18px;}
+        }
+
+    /* more */
+    header{
+        margin-top: 0;
+        text-align: center;
+        width: 100%;
+        height: 50px;
+        background-color: grey;
+        position: fixed;
+        
+    }
+
+    header h2{
+        font-size: 200%;
+    }
+    .header{
+        display: none;
+    }
+
+    #mainblock{
+        background-color: black;
+        text-align: center;  
+        border: solid #222323 10px;
+        border-top: 0;
+        overflow: hidden;
+        padding-top: 50px;
+    }
+
+    nav.menu{
+        padding: 0;
+        margin:0;
+        border: solid black 1px;
+        border-radius: 100%;
+    }
+    nav#menublock{
+        width: 100%;
+        display: none;
+    }
+    .menuitem{
+        
+            float: left; 
+            width: 19%;
+            max-width: 20%;
+            margin-left: 1%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            height:auto;
+            font-size: 0.9em;
+            background-color: grey;
+            border-left: solid black 0px;
+            list-style-type: none;
+            color: white;
+            margin-bottom: 5%;
+            min-height: 25px;
+            max-height: 25px;
+            overflow: hidden;
+        }
+
+    .homeitem{
+        min-height: 25px;
+        max-height: 25px;
+        float: left; 
+        width: 20%;
+        max-width: 20%;
+        font-size: 0.9em;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        height:auto;
+        background-color: grey;
+        border-left: solid black 0px;
+        list-style-type: none;
+        color: white;
+        margin-bottom: 5%
+            }
+
+    .menuitem:hover{
+        background-color: #5C5858
+    }
+
+    .homeitem:hover{
+        background-color: #5C5858
+    }
+
+    main{
+        margin-top: 5%;
+    }
+    img{
+        width: 20%;
+        height: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;  
+        border-radius: 20%;
+    }
+    p.pp{
+        margin-left: 7%;
+        margin-right: 7%; 
+    }
+
+    ul.c1{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul.c2{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 5%;
+    }
+
+    li.l1{
+        margin-top: 1%;
+        font-weight: bold;
+    }
+
+    li.l2{
+        margin-top: 2%;
+        font-weight: bold;
+    }
+    quote{
+        margin-bottom: 5%;
+        font-style: oblique;
+    }
+
+    footer{
+        margin: 10%;
+        margin-top: 2%;
+        margin-bottom: 8%; 
+    }
+}
