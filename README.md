@@ -23,7 +23,7 @@ Technische eisen beschrijven aan welke vakgerichte voorwaarden de opdracht moet 
 De opdracht moet aan de volgende technische eisen voldoen:
 * Je gebruikt semantische HTML5 `main`, `header`, `nav`, `aside`, `article`, `section`; beperk het gebruik van `div` zoveel mogelijk;
 * Alle pagina's zijn gekoppeld aan dezelfde stylesheet(s);
-* Je mag geen bootstrap, w3.css, foundation of een ander framework gebruiken (met andere woorden: al jouw CSS is door jouzelf geschreven) (*);
+* Je mag bootstrap, w3.css, foundation of een ander framework gebruiken;
 * Je hebt een nette mappenstructuur voor de verschillende soorten bestanden in je portfolio;
 * Je hebt je portfolio gecontroleerd met de W3 HTML validator;
 * Jouw portfolio bevat javascript code die de DOM manipuleert (*);
