@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Page Title</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+	</head>
+
+	<body>
+        <div class="Phone">
+            <div class="Phone-screen">
+                <div class="screen-top">
+                    <div class="device-info">
+                        mute - no wifi
+                    </div>
+                    <div class="chat-info">
+                        back - image - name - call - settings
+                    </div>
+                </div>
+                <div class="talk-bubble tri-right left-top">
+                    <div class="talktext">
+                        <p>Hi! how are you?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</body>
+    <style>
+        body{
+            background-color: grey;
+        }
+        .chat-info{
+            background-color: darkcyan;
+            color: white;
+            height: 75px;
+            text-align: left;
+            position: absolute;
+            top:25px;
+            right: 0;
+            left: 0;
+            line-height: 75px;
+            padding-left: 5px;
+        }
+        .device-info{
+            background-color: black;
+            color: white;
+            height: 25px;
+            text-align: right;
+            position: absolute;
+            top:0;
+            right: 0;
+            left: 0;
+            line-height: 25px;
+            padding-right: 5px;
+        }
+        .tri-right.left-top:after{
+            content: ' ';
+            position: absolute;
+            width: 0;
+            height: 0;
+            left: -20px;
+            right: auto;
+            top: 0px;
+            bottom: auto;
+            border: 22px solid;
+            border-color: lightyellow transparent transparent transparent;
+        }
+        
+        .Phone{
+            position: fixed;
+            background-image: url(Images/Mobile_Blank.png);
+            height: 80vh;
+            width: 20%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .Phone-screen{
+            position: fixed;
+            width: 346px;
+            height: 620px;
+            left: 26px;
+            top: 69px;
+            background-color: aqua;
+        }
+        
+        .talk-bubble {
+            margin: 40px;
+            margin-top: 550px;
+            margin-left: 20px;
+            display: inline-block;
+            position: relative;
+            height: 60px;
+            width: 250px;
+            background-color: lightyellow;
+        }
+        
+        .talktext{
+            text-align: left;
+            padding-left: 10px;
+        }
+    </style>
+</html>
