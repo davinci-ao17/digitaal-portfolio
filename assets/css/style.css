@@ -253,8 +253,12 @@ table a {
 }
 
 @media screen and (min-width: 670px) {
-	#navBarTop {
+	#navBarSmall, #navBarSmall a, ul, li {
 		display: hidden;
+	}
+
+	#navBarSmall li, #navBarSmall a, #navBarSmall ul {
+		visibility: hidden;
 	}
 }
 
@@ -285,6 +289,10 @@ table a {
 	li.profession {
 		margin-right: 8%;
 	}
+}
+
+table a {
+	z-index: -1;
 }
 
 @media screen and (max-width: 529px) {
@@ -324,17 +332,33 @@ table a {
 @media screen and (max-width: 353px) {
 	li {
 		margin-right: 3px;
-		margin-top: 8px;
+		margin-top: 10px;
 	}
 
 	#navBarSmall {
-		font-size: 70%;
+		font-size: 65%;
 	}
 }
 
 @media screen and (max-width: 327px) {
 	li {
-		margin-right: 0px;
+		margin-right: -5px;
+	}
+}
+
+@media screen and (max-width: 284px) {
+	#navBarSmall {
+		font-size: 55%;
+	}
+}
+
+@media screen and (max-width: 251px) {
+	#navBarSmall {
+		font-size: 50%;
+	}
+
+	li {
+		margin-top: 15px;
 	}
 }
 
