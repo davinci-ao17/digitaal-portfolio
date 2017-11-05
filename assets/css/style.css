@@ -88,10 +88,7 @@ hr.tab {
 }
 
 p.cv {
-	margin-left: 5%;
 	color: black;
-	background-color: white;
-	width: 80%;
 	padding: 5%;
 }
 
@@ -110,6 +107,20 @@ ul.assignments {
 
 ul.assignments span {
 	color: black;
+}
+
+#cv {
+	width: 70%;
+	background-color: white;
+	margin-left: 14%;
+	padding: 10px;
+	-webkit-box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.75);
+}
+
+#cv > h2 {
+	text-align: center;
 }
 
 #twbackground {
@@ -151,6 +162,31 @@ table {
 table a {
 	color: darkblue;
 	padding-right: 20px;
+}
+
+table a, table td {
+	z-index: -1;
+}
+
+img.hardwarepic {;
+	margin-left: 20px;
+}
+
+div.jobimages {
+	display: inline;
+}
+
+img.codepic {
+	-webkit-box-shadow: 5px 0px 75px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 0px 75px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 0px 75px 0px rgba(0,0,0,0.75);
+}
+
+img.hardwarepic {
+	-webkit-box-shadow: 5px 0px 75px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 0px 75px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 0px 75px 0px rgba(0,0,0,0.75);
+	background-color: #696969;
 }
 
 /* Start Grow Button Effect */
@@ -252,13 +288,21 @@ table a {
 	}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 	#navBarSmall, #navBarSmall a, ul, li {
 		display: hidden;
 	}
 
 	#navBarSmall li, #navBarSmall a, #navBarSmall ul {
 		visibility: hidden;
+	}
+
+	div.jobimages {
+		margin-left: 22%;
+	}
+
+	img.codepic {
+		margin-bottom: 100px;
 	}
 }
 
@@ -274,30 +318,55 @@ table a {
 
 	#navBarSmall {
 		position: fixed;
-		bottom: 0;
+		bottom: -3px;
 		width: 100%;
 		height: 80px;
 		background-color: black;
 		text-align: center;
+		z-index: 1;
 	}
 
 	li {
 		color: white;
 		margin-right: 30px;
+		z-index: 1;
+		margin-top: -5px;
 	}
 
 	li.profession {
 		margin-right: 8%;
 	}
-}
 
-table a {
-	z-index: -1;
+	img.codepic {
+		position: relative;
+		left: 80px !important;
+		margin-bottom: 40px;
+	}
+
+	img.hardwarepic {
+		position: relative;
+		left: 100px !important;
+		margin: 0 !important;
+		margin-bottom: -60px !important;
+	}
 }
 
 @media screen and (max-width: 529px) {
 	#navBarSmall {
 		font-size: 90%;
+	}
+
+	img.codepic {
+		position: relative;
+		left: 110px !important;
+		margin-bottom: 40px;
+	}
+
+	img.hardwarepic {
+		position: relative;
+		left: 110px !important;
+		margin: 0 !important;
+		margin-bottom: 120px !important;
 	}
 }
 
@@ -305,11 +374,37 @@ table a {
 	li {
 		margin-right: 15px;
 	}
+
+	img.codepic {
+		position: relative;
+		left: 90px !important;
+		margin-bottom: 40px;
+	}
+
+	img.hardwarepic {
+		position: relative;
+		left: 90px !important;
+		margin: 0 !important;
+		margin-bottom: 120px !important;
+	}
 }
 
 @media screen and (max-width: 440px) {
 	li {
 		margin-right: 5px;
+	}
+
+	img.codepic {
+		position: relative;
+		left: 70px !important;
+		margin-bottom: 40px;
+	}
+
+	img.hardwarepic {
+		position: relative;
+		left: 70px !important;
+		margin: 0 !important;
+		margin-bottom: 120px !important;
 	}
 }
 
@@ -321,11 +416,37 @@ table a {
 	li {
 		margin-top: 5px;
 	}
+
+	img.codepic {
+		position: relative;
+		left: 50px !important;
+		margin-bottom: 40px;
+	}
+
+	img.hardwarepic {
+		position: relative;
+		left: 50px !important;
+		margin: 0 !important;
+		margin-bottom: 120px !important;
+	}
 }
 
 @media screen and (max-width: 372px) {
 	#navBarSmall {
 		font-size: 75%;
+	}
+
+	img.codepic {
+		position: relative;
+		left: 40px !important;
+		margin-bottom: 40px;
+	}
+
+	img.hardwarepic {
+		position: relative;
+		left: 40px !important;
+		margin: 0 !important;
+		margin-bottom: 120px !important;
 	}
 }
 
