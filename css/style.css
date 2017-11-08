@@ -1,0 +1,573 @@
+/* body */
+
+body {
+	background: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+}
+
+.overmij-body {
+	overflow-x: hidden;
+}
+
+/* header and nav-bar */
+
+header {
+	display: block;
+	background: linear-gradient(#6D6D6D, #262626); 
+	position: relative;
+	bottom: 22px;
+	height: 85px;
+}
+
+h1 {
+	position: relative;
+	right: 0;
+	padding-left: 200px;
+	top: 10px;
+	font-weight: 400;
+}
+
+h1 a {
+	text-decoration: none;
+	color: white
+}
+
+h1 a:hover {
+	transition: color 1000ms 0s ease;
+	color: #1f59b7;
+}
+
+h3 {
+	position: relative;
+	font-weight: 400;
+	padding-left: 201px;
+	bottom: 10px;
+	color: white
+}
+
+nav ul {
+	bottom: 15px;
+	height: 45px;
+	position: absolute;
+    list-style-type: none;
+    margin: 0;
+    left: 800px;
+    overflow: hidden;
+    font-size: 17px;
+}
+
+li {
+	display: list-item;
+	border-left: solid;
+    float: left;
+    border-width: 1px;
+}
+
+li:last-child {
+	border-right: solid;
+	border-width: 1px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 9px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #1f59b7;
+    background-color: black;
+    transition: color 500ms 0s ease;
+}
+
+li a:visited {
+    text-decoration: none;
+}
+
+.active {
+	color: #1f59b7;
+    background-color: black;
+}
+
+/* section */
+
+section {
+	position: relative;
+	background-color: #C9C9C9;
+	left: 220px;
+	top: 10px;
+	height: 320px;
+	width: 260px;
+	border-radius: 20px;
+}
+
+section img:first-child {
+	position: relative;
+	left: 23px;
+	top: 23px;
+	background-color: #9E9E9E;
+	height: 210px;
+	width: 210px;
+	border: solid;
+	border-color: #313131;
+	border-radius: 20px;
+}
+
+/* Font-Awesome Icons */
+
+.fa-facebook-square {
+	position: relative;
+	top: 87.8px;
+	right: 22px;
+}
+
+.fa-twitter-square {
+	position: relative;
+	top: 40px;
+	left: 22px;
+}
+
+.fa-github-square {
+	position: relative;
+	top: 40px;
+	left: 65px;
+}
+
+/* main */
+
+h2 {
+
+	position: relative;
+	display: inline-block;
+	left: 520px;
+	bottom: 330px;
+	font-size: 30px;
+}
+
+.main-home {
+	position: relative;
+	width: 550px;
+	height: 275px;
+	left: 520px;
+	bottom: 347px;
+	background-color: #C9C9C9;
+	border-radius: 20px;
+}
+
+.main-home p {
+	position: relative;
+	padding-left: 10px;
+	top: 10px;
+	line-height: 20px;
+}
+
+.main-home p:last-child {
+	position: relative;
+	top: 20px;
+	font-size: 16px;
+}
+
+.main-home p a:last-child {
+	color: black;
+	text-decoration: none;
+}
+
+.main-home p a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.main-home .bold {
+	font-weight: bolder;
+	color: black;
+}
+
+.main-home p a span:last-child {
+	color: red;
+}
+
+.main-overmij {
+	position: relative;
+	width: 700px;
+	height: 255px;
+	left: 520px;
+	bottom: 347px;
+}
+
+.main-overmij p {
+	position: relative;
+	padding-left: 10px;
+	top: 10px;
+	line-height: 20px;
+}
+
+.main-cv {
+	position: relative;
+	width: 550px;
+	height: 255px;
+	left: 520px;
+	bottom: 347px;
+}
+
+.main-cv p {
+	position: relative;
+	padding-left: 10px;
+	top: 10px;
+	line-height: 20px;
+	font-size: 13px;
+}
+
+.main-cv p span {
+	font-weight: bolder;
+	color: black;
+}
+
+.main-opleiding {
+	position: relative;
+	width: 550px;
+	height: 255px;
+	left: 520px;
+	bottom: 347px;
+}
+
+.main-opleiding p {
+	position: relative;
+	padding-left: 10px;
+	top: 10px;
+	line-height: 20px;
+	font-size: 13px;
+}
+
+.main-opleiding p a:hover {
+	color: red;
+}
+
+.main-opleiding p a:visited {
+	text-decoration: none;
+}
+
+.main-beroep {
+	position: relative;
+	width: 550px;
+	height: 255px;
+	left: 520px;
+	bottom: 347px;
+}
+
+.main-beroep p {
+	position: relative;
+	padding-left: 10px;
+	top: 10px;
+	line-height: 20px;
+	font-size: 15px;
+}
+/* cv text */
+
+.schuin {
+	font-style: italic;
+}
+
+/* pictures */
+
+.elektro {
+	position: relative;
+	float: right;
+	height: 150px;
+	width: 150px;
+	padding-left: 10px;
+}
+
+.jacobcat {
+	position: relative;
+	float: left;
+	height: 150px;
+	width: 150px;
+	padding-right: 10px;
+}
+
+.app_foto {
+	position: relative;
+	height: 300px;
+	width: 200px;
+}
+
+.school_foto {
+	position: relative;
+	height: 287px;
+	width: 424px;
+}
+
+/* footers */
+
+.footer-home {
+	position: relative;
+	bottom: 1px;
+	background-color: #4E4E4E;
+	height: 175px;
+}
+
+.footer-home p {
+	position: relative;
+	top: 87px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+.footer-overmij {
+	position: relative;
+	top: 270px;
+	background-color: #4E4E4E;
+	height: 175px;
+}
+
+.footer-overmij p {
+	position: relative;
+	top: 87px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+.footer-cv {
+	position: relative;
+	top: 650px;
+	background-color: #4E4E4E;
+	height: 175px;
+}
+
+.footer-cv p {
+	position: relative;
+	top: 87px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+.footer-opleiding {
+	position: relative;
+	top: 1370px;
+	background-color: #4E4E4E;
+	height: 175px;
+}
+
+.footer-opleiding p {
+	position: relative;
+	top: 87px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+.footer-beroep {
+	position: relative;
+	display: block;
+	top: 0;
+	background-color: #4E4E4E;
+	height: 175px;
+}
+
+.footer-beroep p {
+	position: relative;
+	top: 87px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+footer p {
+	text-align: center;
+}
+
+@media only screen and (max-width:412px) {
+  /* For mobile phones: */
+ 	 body {
+ 	 	margin: 0;
+  	}
+
+ 	h1 {
+ 		display: block;
+  		position: relative;
+  		right: 85px;
+  		font-size: 23px;
+  	}
+
+  	header h3 {
+  		display: block;
+  		position: relative;
+  		font-size: 14px;
+  		right: 86px;
+  		top: 1px;
+  	}
+
+  	header {
+  		margin: 0;
+  		height: 130px;
+  		width: 500px;
+  	}
+
+  	nav ul {
+  		margin: 0;
+  		position: absolute;
+  		display: table;
+  		left: -20px;
+  		font-size: 11px;
+  		top: 85px;
+  	}
+
+  	section {
+  		margin: 0;
+  		position: relative;
+  		display: block;
+  		left: 90px;
+  		top: 20px;
+  	}
+
+  	h2 {
+  		margin: 0;
+  		position: relative;
+  		display: block;
+  		left: 10px;
+  		top: 45px;
+  		font-size: 23px;
+  	}
+
+  	.main-home {
+  		margin: 0;
+  		position: relative;
+  		display: block;
+  		left: 10px;
+  		top: 50px;
+  		width: 400px;
+  	}
+
+  	.main-overmij {
+  		margin: 0;
+  		position: relative;
+  		display: block;
+  		left: 6px;
+  		top: 50px;
+  		width: 400px;
+  	}
+
+  	.main-cv {
+  		margin: 0;
+  		position: relative;
+  		display: block;
+  		left: 6px;
+  		top: 50px;
+  		width: 400px;
+  	}
+
+  	.main-opleiding {
+  		margin: 0;
+  		position: relative;
+  		display: block;
+  		left: 6px;
+  		top: 50px;
+  		width: 400px;
+  	}
+
+  	.main-beroep {
+  		margin: 0;
+  		position: relative;
+  		display: block;
+  		left: 6px;
+  		top: 50px;
+  		width: 400px;
+  	}
+
+  	.footer-home {
+  		margin: 0;
+  		position: relative;
+  		display: block;
+  		top: 220px;
+  		width: 500px;
+  	}
+
+  	.footer-overmij {
+  		margin: 0;
+  		position: relative;
+  		display: block;
+  		top: 1050px;
+  	}
+
+  	.footer-home p {
+  		margin: 0;
+  		position: absolute;
+		top: 87px;
+		left: 17px;
+		text-align: center;
+		color: white;
+		font-size: 15px;
+  	}
+
+  	.footer-overmij p {
+  		margin: 0;
+  		position: absolute;
+		top: 87px;
+		left: 15px;
+		text-align: center;
+		color: white;
+		font-size: 15px;
+  	}
+
+  	.footer-cv {
+  		margin: 0;
+  		position: relative;
+  		display: block;
+  		top: 1050px;
+  	}
+
+  	.footer-cv p {
+  		margin: 0;
+  		position: absolute;
+		top: 87px;
+		left: 15px;
+		text-align: center;
+		color: white;
+		font-size: 15px;
+  	}
+
+  	.footer-opleiding {
+  		margin: 0;
+  		position: relative;
+  		display: block;
+  		top: 1800px;
+  	}
+
+  	.footer-opleiding p {
+  		margin: 0;
+  		position: absolute;
+		top: 87px;
+		left: 15px;
+		text-align: center;
+		color: white;
+		font-size: 15px;
+  	}
+
+  	.footer-beroep {
+  		margin: 0;
+  		position: relative;
+  		display: block;
+  		top: 180px;
+  	}
+
+  	.footer-beroep p {
+  		margin: 0;
+  		position: absolute;
+		top: 87px;
+		left: 15px;
+		text-align: center;
+		color: white;
+		font-size: 15px;
+  	}
+}
