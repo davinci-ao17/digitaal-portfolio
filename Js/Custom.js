@@ -23,7 +23,7 @@ function startTalking(){
 var i = 0;
 var hasEnded = false;
 var texts = [
-	"Welcome to My Digital Profile!",
+	"Welcome to Kelvin's Digital Profile!",
 	"I am your personal assistence.",
 	"Where would you like to go?",
 ];
@@ -56,7 +56,10 @@ function checkIfDone(){
 	}
 }
 
-function showMenu(){FadeIn(menu);}
+function showMenu(){
+    menu.style.display ="block";
+    FadeIn(menu);
+}
 
 function FadeIn(element) {
     var op = 0;

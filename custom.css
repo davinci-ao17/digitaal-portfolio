@@ -76,6 +76,7 @@ html {
 
 
 #menu{
+    display: none;
     position: absolute;
     opacity: 0;
     list-style-type: none;
