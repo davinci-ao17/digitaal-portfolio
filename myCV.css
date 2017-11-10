@@ -1,0 +1,47 @@
+html, body {
+    min-height: 100%;
+}
+
+body{
+	background-color: lightgray;
+}
+
+
+div.A4{
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    width: 21cm;
+}
+
+@media print {
+  body, div.A4 {
+    margin: 0;
+    box-shadow: 0;
+    width: 100%;
+  }
+}
+
+.panel{
+    position: relative;
+    width: 60%;
+    margin-left: 5%;
+}
+
+.left-panel{
+    float: left;
+    width: 60%;
+    margin-left: 10px;
+}
+
+.right-panel{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+img{
+    width: 25%;
+}

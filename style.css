@@ -1,0 +1,238 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(50,50,50);
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidenav {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    width: 12vw;
+    background-color: #111;
+}
+
+.cvSideNav {
+    height: 116vh;
+}
+
+.sidenav ul {
+    list-style: none;
+}
+
+.sidenav i {
+    font-size: 40px;
+}
+
+.sidenav ul {
+    margin-left: -20%;
+}
+
+.sidenav a {
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    background-color: black;
+}
+
+.sidenav-active{
+    color: #f1f1f1;
+    background-color: black;
+}
+
+main {
+    width: 85vw;
+    color: lightgray;
+    margin-left: 13vw;
+}
+
+.textBox-complete-center {
+    text-align: center;
+    border: 2px dashed black;
+}
+
+.textBox{
+    width: 100%;
+    padding-left: 10px;
+    margin-top: -11px;
+}
+
+.textBox-small{
+    width: 33%;
+    padding-left: 10px;
+    margin-top: 75px;
+}
+
+.textBox-small a:visited { 
+    color: blue;
+}
+
+.jobTable th, .jobTable td{
+    padding-right: 20px;
+    text-align: left;
+}
+
+.cv{
+    margin-top: -51px;
+    margin-left: 7vw;
+    background-color: white;
+    width: 70%;
+    color: black;
+}
+
+.cv h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.cv th{
+    font-size: 30px;
+    border-bottom: 2px solid aqua;
+    width:100%;
+    text-align: left;
+}
+
+.cv td{
+    width: 200px;
+}
+
+@media screen and (max-width: 1100px) {
+   .sidenav {
+       width: 15vw;
+       height: 115vh;
+       position: fixed;
+    }
+    
+    .sidenav ul {
+        margin-left: -23%;
+        list-style: none;
+    }
+    
+    main {
+        width: 80vw;
+        margin-left: 17vw;
+    }
+    
+    .sidenav i {
+        font-size: 35px;
+    }
+
+    .sidenav a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .sidenav i {
+        font-size: 30px;
+    }
+
+    .sidenav a {
+        font-size: 15px;
+    }
+    .sidenav ul {
+        margin-left: -32%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .sidenav {
+        position:static;
+        margin: -8px;
+        height: 70px;
+        width: 100vw;
+        float: left;
+        background-color: #111;
+    }
+    
+    .sidenav img{
+        display: none;
+    }
+    
+    .sidenav li{
+        width: 20%;
+        float: left;
+    }
+
+    .sidenav ul{
+        margin: 0;
+        margin-left: -40px;
+        list-style: none;
+        width: 100%;
+    }
+
+    .sidenav i {
+        font-size: 35px;
+    }
+
+    .sidenav a {
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        color: #818181;
+    }
+
+    .sidenav a:hover {
+        color: #f1f1f1;
+        background-color: black;
+    }
+
+    .sidenav-active{
+        color: #f1f1f1;
+        background-color: black;
+    }
+    
+    .textBox{
+        position: absolute;
+        top: 100px;
+        left: 10px;
+        width: 90%;
+    }
+    
+    .textBox-small{
+        position: absolute;
+        top: 200px;
+        left: 10px;
+        width: 90%;
+    }
+    
+    .textBox-complete-center{
+        position: absolute;
+        top: 100px;
+        left: 10px;
+        font-size: 1em;
+    }
+    
+    .cv{
+        position: absolute;
+        top: 150px;
+        left: -7px;
+        background-color: white;
+        width: 90%;
+        color: black;
+    }
+
+    .cv h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .cv th{
+        font-size: 15px;
+        border-bottom: 2px solid aqua;
+        width:100%;
+        text-align: left;
+    }
+
+    .cv td{
+        width: 200px;
+    }
+}

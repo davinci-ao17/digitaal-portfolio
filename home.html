@@ -1,0 +1,128 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Kelvin Wijkniet</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="custom.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
+	</head>
+
+	<body>
+        <div class="intro">
+            <div id="speechBubble" class="bubble">
+                <p class="introText"><span id="typeWriter"></span><span id="typeWriterEffect"></span></p>
+            </div>
+            <div class="imgHolder">
+                <img id="talker" class="talker" src="images/talker.png" width="500">
+            </div>
+        </div>
+        
+        <div id="menu">
+            <button class="innerCircle" onclick="AboutMe()">
+                <a>
+                    About Me
+                    <span class="outerCircle"></span>
+                </a>
+            </button>
+            <button class="innerCircle" onclick="Education()">
+                <a>
+                    Education
+                    <span class="outerCircle"></span>
+                </a>
+            </button>
+            <button class="innerCircle" onclick="Job()">
+                <a>
+                    Job
+                    <span class="outerCircle"></span>
+                </a>
+            </button>
+            <button class="innerCircle">
+                <a href="myCV.html" target="_blank">
+                    CV
+                    <span class="outerCircle"></span>
+                </a>
+            </button>
+        </div>
+        <div id="AboutMe" class="page smoothAnim-quick">
+            <div class="inner">
+                <button class="closePageButton" onclick="Home()"><img src="Images/back.png"></button>
+                <h1>About Me:</h1>
+                <p id="line01"> My name is Kelvin Wijkniet.</p>
+                <p id="line02">I was born in the netherlands, Zwijndrecht on the 28th of april 2000. </p>
+                <p id="line03">When I was around 8 years old I moved to Hendrik ido Ambacht where i still life.</p>
+                <p id="line04">I followed an education in the electronics from 2015 (At this point I Already started programming)</p>
+                <p id="line05">till 2017 where I got my 
+                electrician certificate.</p>
+                <p id="line06">In 2017 I started an education in application development.</p>
+            </div>
+        </div>
+        <div id="Education" class="page smoothAnim-quick">
+            <div class="inner">
+                <button class="closePageButton" onclick="Home()"><img src="Images/back.png"></button>
+                <h1>Education:</h1>
+                <p id="line01"> At school we learn many new things. To learn those new things we make projects</p>
+                <p id="line02">As part of my education in the application development i have to work on projects.</p>
+                <p id="line03"> My current projects are listed down below. </p>
+                <br />
+                <h1 id="line04">Projects</h1>
+                <table id="educationTable">
+                    <tr>
+                        <th></th>
+                        <th>Name</th>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-folder-open" aria-hidden="true"></i></td>
+                        <td><a href="http://htmlpreview.github.io/?https://github.com/KWijkniet/de-vloot/blob/master/home.html">De Vloot</a></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-folder-open" aria-hidden="true"></i></td>
+                        <td><a href="http://htmlpreview.github.io/?">Digital Profile (This)</a></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-folder-open" aria-hidden="true"></i></td>
+                        <td><a href="http://htmlpreview.github.io/?https://github.com/KWijkniet/grid/blob/master/space1.html">Grid (space1)</a></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-folder-open" aria-hidden="true"></i></td>
+                        <td><a href="http://htmlpreview.github.io/?https://github.com/KWijkniet/grid/blob/master/space2.html">Grid (space2)</a></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-folder-open" aria-hidden="true"></i></td>
+                        <td><a href="http://htmlpreview.github.io/?https://github.com/KWijkniet/handy/blob/master/absolutely.html">Handy</a></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-folder-open" aria-hidden="true"></i></td>
+                        <td><a href="http://htmlpreview.github.io/?https://github.com/KWijkniet/layout/blob/master/home.html">Layout</a></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-folder-open" aria-hidden="true"></i></td>
+                        <td><a href="http://htmlpreview.github.io/?https://github.com/KWijkniet/recepten/blob/master/Recipe.html">Recepten</a></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-folder-open" aria-hidden="true"></i></td>
+                        <td><a href="http://htmlpreview.github.io/?https://github.com/KWijkniet/robotarm/blob/master/RobotArm.html">RobotArm</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="job" class="page smoothAnim-quick">
+            <div class="inner">
+                <button class="closePageButton" onclick="Home()"><img src="Images/back.png"></button>
+                <h1>About Me:</h1>
+                <p id="line01"> My name is Kelvin Wijkniet.</p>
+                <p id="line02">I was born in the netherlands, Zwijndrecht on the 28th of april 2000. </p>
+                <p id="line03">When I was around 8 years old I moved to Hendrik ido Ambacht where i still life.</p>
+                <p id="line04">I followed an education in the electronics from 2015 (At this point I Already started programming)</p>
+                <p id="line05">till 2017 where I got my 
+                electrician certificate.</p>
+                <p id="line06">In 2017 I started an education in application development.</p>
+            </div>
+        </div>
+	</body>
+    <script src="Js/TypeWriterV2.0.js"></script>
+    <script src="Js/Custom.js"></script>
+</html>
