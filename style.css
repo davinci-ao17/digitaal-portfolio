@@ -1,0 +1,283 @@
+body {
+	margin-top: 0px;
+	background-color: #1e262c;
+	letter-spacing: .09em;	
+	color: #ddd5bf;
+}
+
+ul {
+	list-style-type: none;
+	width: 300px;
+	padding: 0px;	
+	background-color: black;	
+	position: fixed;
+	left: 50px;
+	height: 100%;
+	margin: 0px;
+	text-transform: uppercase;
+    letter-spacing: .30em;
+    font-size: 15px;
+}
+
+li {
+	height: 100px;	
+}
+
+ul a {
+	text-decoration: none;	
+	display: block;
+	height: 100px;
+}
+
+#black {	
+	background-color: #1e262c;
+	width: 10px;
+	height: 100px;
+	position: absolute;
+}
+
+#orange {	
+	background-color: #e16622;
+	width: 10px;
+	height: 100px;
+	position: absolute;
+}
+
+#yellow {	
+	background-color: #f6c435;
+	width: 10px;
+	height: 100px;
+	position: absolute;
+}
+
+#red {	
+	background-color: #d11d29;
+	width: 10px;
+	height: 100px;
+	position: absolute;
+}
+
+#purple {	
+	background-color: #542437;
+	width: 10px;
+	height: 100px;	
+	position: absolute;
+}
+
+.text {	
+	position: relative;
+	left: 20px;
+	top: 20px;
+	width: 230px;
+	color: #ddd5bf;	
+}
+
+.text2 {
+	text-transform: uppercase;
+    letter-spacing: .30em;
+    font-size: 10px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: #ddd5bf;
+}
+
+body.home a#home {
+	background-color: #1e262c;
+}
+
+body.overmij a.overmij {
+	background-color: #f6c435;
+}
+
+body.opleiding a.opleiding {
+	background-color: #d11d29;
+}
+
+body.beroep a.beroep {
+	background-color: #e16622;
+}
+
+body.contact a.contact {
+	background-color: #542437;
+}
+
+#homeul {	
+	display: flex;
+	flex-wrap: wrap-reverse;	
+	width: 100%;
+	height: inherit;	
+	background-color: #1e262c; 
+	justify-content: center;
+	margin-top: 140px;
+	position: absolute;
+	left: 0px;
+}
+
+.homeli {
+	width: 500px;
+	background-color: black;
+	margin: 20px;	
+}
+
+#home {
+	width: 500px;
+	position: relative;
+	left: 9%;
+	margin: 20px;	
+}
+
+#contacttable {
+	position: relative;	
+	top: 200px; 
+	left: 37%;
+	text-transform: uppercase;
+    letter-spacing: .30em;
+    font-size: 15px;    	        
+}
+
+#contacttable tr {
+	margin: 20px;
+	height: 100px;	
+}
+
+#contacttable th, #contacttable td {
+	border: 2px solid white;
+	text-align: center;
+	width: 300px;
+}
+
+#overmij-ul {
+	position: absolute;
+	height: 50px;
+	background-color: #f6c435;	
+	width: 50px;
+}
+
+#overmij-ul li {
+	height: 50px;
+	position: relative;
+	left: 140px;	
+}
+
+#overmij-ul a {
+	width: 90px;
+	height: inherit;
+}
+
+body.overmij a.overmij div.text {
+	color: white;
+}
+
+body.beroep a.beroep div.text {
+	color: white;
+}
+
+body.opleiding a.opleiding div.text {
+	color: white;
+}
+
+body.contact a.contact div.text {
+	color: white;
+}
+
+#overmij-a {
+	color: white;
+}
+
+#overmij-a2 {
+	color: grey;
+}
+
+#cv-a {
+	color: white;
+}
+
+#cv-a2 {
+	color: grey;
+}
+
+h1, h2 {
+	margin: 0px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+		
+#tablecv {
+	width: 350px;
+	margin: auto;
+}
+
+#tablecv tr {
+	height: 30px;
+}
+
+.mySlides {
+	width: 100%;
+}
+
+.slide-img1 {
+	width: 100%
+}
+.slide-img2 {	
+	width: 400px;
+}
+
+.slide-img12 {
+	width: 200px;
+}
+
+main {
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+
+#opleiding-main {
+	width: 800px;
+	position: absolute;
+	left: 30%;
+	text-align: center;
+}
+
+#overmij-main {
+	width: 700px;
+	position: absolute;
+	left: 35%;
+	text-align: center;
+}
+
+#beroep-main {
+	position: absolute;
+	left: 40%;
+	width: 600px;
+	text-align: center;	
+}
+
+#cv-main{
+	position: absolute;
+	left: 40%;
+	width: 600px;
+	text-align: center;	
+}
+
+#beroep-main a {
+	color: limegreen;
+}
+
+button {
+	background-color: black;
+	margin: 10px;
+	color: #ddd5bf;
+	height: 30px;
+}
+
+#img-mezelf {
+	margin-top: 20px;
+	width: 350px;
+	border: 10px solid black;
+}
+
+p a {
+	color: limegreen;
+	text-decoration: none;
+}
