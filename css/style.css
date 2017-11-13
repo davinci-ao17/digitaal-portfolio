@@ -10,6 +10,8 @@ body {
   background-image: url(grfx/bg.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  background-size: cover;
+  background-color: #5357c6;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -272,145 +274,138 @@ i {
 
 /*------------------------------------mediA----------------------------------------------------*/
 
-@media screen and (max-width: 1430px) {
+@media screen and (max-width: 1430px) and (min-width: 10px) {
 
-  /*------------------------------------------header en nav---------------------------------------*/
+  /*-------------------------------------------body-------------------------------------------------*/
+
+
+  * {
+    overflow-x: hidden;
+  }
+
+  /*----------------------------header----------------------------*/
+
+  header {
+    height: 71px;
+  }
+  header a {
+    font-size: 25px;
+    text-decoration: none;
+  }
+  header h1 {
+    font-size: 25px;
+  }
+
+  /*--------------------------nav-------------------------------*/
+
+  nav {
+    width: 100%;
+  }
+
+  #home {
+    font-size: 25px;
+      margin: 10px;
+  }
 
   #homeheader {
-    height: 71px;
+    height: 71;
+    width: auto;
     background-image: none;
     background-color: rgb(0, 0, 26);
   }
 
-  #homeheader a {
-    font-size: 20px;
-  }
-  #homeheader a h1 {
-    display: none;
+   #opleiding,#werk {
+    width: 200px;
   }
 
-  nav a {
-    font-size: 25px;
+  #werkkeuzes a, #opleidingkeuzes a{
+    font-size: 20px;
+  }
+
+  #werk:hover #werkkeuzes {
+    height: auto;
+  }
+
+  #werkkeuzes, #opleidingkeuzes {
+    background-image: none;
+    height: auto;
     width: 200px;
-    margin: auto;
+    position: absolute;
+    top: 70px;
   }
 
   #tekstdown {
     margin-top: 0px;
-    justify-content: space-around;
-  }
-  #tekstdown a {
-    padding: 0px;
   }
 
-  /*------------------------------------------main---------------------------------------*/
+  /*--------------------------main------------------------------------------*/
 
-  main {
-    background-image: none;
-    background-color: rgb(0, 0, 26);
-    margin: 20px auto;
-    border-radius: 20px;
-    width: 80%;
-    height: auto;
-    color: #fff;
-  }
-  #heightwerk {
-    height: auto;
-  }
-  #heightwerk2 {
-    height: auto;
-  }
+    main {
+      background-image: none;
+      background-color: rgb(0, 0, 26);
+      margin-top: 50px;
+      margin: 0 auto;
+      margin-top: 50px;
+      width: 800px;
+      height: auto;
+    }
+    #heightwerk {
+      height: auto;
+    }
+    #heightwerk2 {
+      height: auto;
+    }
 
-  main h1 {
-    margin-left: 70px;
-    width: 400px;
-    border-bottom: 1px solid #262973;
-    padding-bottom: 9px;
-    text-align: center;
-  }
+    main h1 {
+      margin-left: 20px;
+      width: 500;
+      border-bottom: 0px;
+      margin-bottom: 10px;
+    }
 
-  #mainall {
-    margin-top: 80px;
-    display: flex;
-    flex-direction: row;
-  }
+    #mainall {
+      margin-top: 0px;
+      flex-direction: column;
+    }
 
-  #maincontainer {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin-left: 20px;
-    border: 2px solid #262973;
-    padding: 5px;
-  }
+    #maincontainer {
+      width: 80%;
+      margin-left: 20px;
+    }
 
-  #maincontainer2 {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin-left: 20px;
-    border: 2px solid #262973;
-    padding: 5px;
-    text-align: center;
-  }
-  #maincontainer2 a {
-    color: #fff;
-    text-decoration: none;
-    border: 1px solid #fff;
-    width: 100px;
-    padding: 15px;
-    margin: auto;
-  }
-  #maincontainer2 a:hover {
-    opacity: 0.5;
-  }
-  #maincontainer2 i {
-    display: block;
-  }
+    #maincontainer2 {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
 
-  #maincontainer ul li {
-    padding: 10px 0px;
-  }
+    #imgtop {
+      width: 300px;
+      height: auto;
+    }
 
-  #imgtop {
-    width: 300px;
-    height: auto;
-  }
-  #imgdavinci {
-    width: 250px;
-    padding: 0 25px;
-  }
-  #cross {
-    font-size: 110px;
-    text-align: center;
-  }
+    #vraag, #andwoord {
+      list-style: none;
+      width: 200px;
+      display: inline-block;
+      padding: 0 10px;
+      margin-top: 20px;
+    }
 
-  #infonaastelkaar {
-    display: flex;
-    flex-direction: row;
-  }
+    #vraag {
+      border: 1px solid #262973;
+    }
 
-  #vraag, #andwoord {
-    list-style: none;
-    width: 200px;
-    display: inline-block;
-    padding: 0 10px;
-    margin-top: 20px;
-  }
+    #teksovermij {
+      margin-right: 20px;
+      padding: 10px;
+      font-size: 20px;
+      border: 2px solid #262973;
+      border-left: 2px;
+    }
 
-  #vraag {
-    border-right: 1px solid #262973;
-  }
 
-  #teksovermij {
-    margin-right: 20px;
-    padding: 50px;
-    font-size: 20px;
-    border: 2px solid #262973;
-    border-left: 0px;
-  }
-
-  /*------------------------------------------aside---------------------------------------*/
+  /*----------------------------aside--------------------------------*/
 
   aside {
     width: 80%;
@@ -427,8 +422,7 @@ i {
   }
 
   #allaside {
-    margin-left: 0 auto;
-    width: 80%;
+    margin-left: 70px;
+    width: 350px;
   }
-
 }
