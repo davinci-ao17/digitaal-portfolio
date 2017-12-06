@@ -42,7 +42,7 @@
 		<main id="opleiding-main">
 			<h1>Opleiding</h1>
 			<p>
-				Ik zit op het davinci college waar ik bezig ben met de opleiding Applicatie Ontwikkelaar. Mijn hoofdvak is AO (Applicatie Ontwikkelaar) hier leer ik coderen in talen zoals Html, Css, Javascript en Php, naast mij hoofdvak heb ik ook Engels, Rekenen en Nederlands. Voor het vak AO zijn we vooral bezig met het maken van projecten. De projeceten die ik al heb gemaakt staan hier onder getoont.
+				Ik zit op het davinci college waar ik bezig ben met de opleiding Applicatie Ontwikkelaar. Mijn hoofdvak is AO (Applicatie Ontwikkelaar) hier leer ik coderen in talen zoals Html, Css, Javascript en Php, naast mij hoofdvak heb ik ook Engels, Rekenen en Nederlands. Voor het vak AO zijn we vooral bezig met het maken van projecten. De projecten die ik al heb gemaakt staan hier onder getoont.
 			</p>			
 			<button onclick="plusDivs(-1)">❮ Prev</button>
 			<button onclick="plusDivs(1)">Next ❯</button>	
@@ -145,23 +145,23 @@
 			</section>   					
 		</main>		
 		<script>
-				var slideIndex = 1;
-				showDivs(slideIndex);
+			var slideIndex = 1;
+			showDivs(slideIndex);
 
-				function plusDivs(n) {
-				  showDivs(slideIndex += n);
-				}
+			function plusDivs(n) {
+			  showDivs(slideIndex += n);
+			}
 
-				function showDivs(n) {
-				  var i;
-				  var x = document.getElementsByClassName("mySlides");
-				  if (n > x.length) {slideIndex = 1}    
-				  if (n < 1) {slideIndex = x.length}
-				  for (i = 0; i < x.length; i++) {
-				     x[i].style.display = "none";  
-				  }
-				  x[slideIndex-1].style.display = "block";  
-				}				
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  if (n > x.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+			     x[i].style.display = "none";  
+			  }
+			  x[slideIndex-1].style.display = "block";  
+			}				
 		</script>			
 	</body>
 </html>
