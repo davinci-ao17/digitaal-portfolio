@@ -1,0 +1,270 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+/*--------------------------body------------------------------------------*/
+
+body {
+  background-image: url(grfx/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/*----------------------------header----------------------------*/
+
+header {
+  background-color: rgba(0, 0, 26, 0.9);
+  height: 71px;
+  display: flex;
+  z-index: 1000;
+}
+header a {
+  font-size: 35px;
+  text-decoration: none;
+}
+header h1 {
+  display: inline-block;
+  color: #fff;
+  font-size: 45px;
+}
+header i {
+  color: #fff;
+  display: inline-block;
+}
+
+/*--------------------------nav-------------------------------*/
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+nav div {
+  display: flex;
+}
+nav a:hover {
+  opacity: 0.5;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#home {
+  font-size: 25px;
+    margin: 10px;
+}
+#home:hover {
+  opacity: 0.5;
+}
+#homeheader {
+  height: 100px;
+  width: 500px;
+  background-image: url(grfx/homeheader.png);
+}
+
+ #opleiding,#werk {
+  width: 300px;
+}
+
+#opleiding:hover #opleidingkeuzes {
+  visibility: visible;
+}
+
+#opleidingkeuzes {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#werkkeuzes a, #opleidingkeuzes a{
+  font-size: 25px;
+}
+
+#werk:hover #werkkeuzes {
+  visibility: visible;
+  height: 100px;
+}
+
+#werkkeuzes {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 0px;
+  transition: 0,3s;
+}
+#werkkeuzes, #opleidingkeuzes {
+  background-image: url(grfx/dropdownbg.png);
+  height: 100px;
+  width: 270px;
+  margin: 0 30px;
+  position: absolute;
+  top: 70px;
+  border-top: 1px solid #262973;
+}
+
+#werkkeuzes a:hover, #opleidingkeuzes a:hover {
+  border-bottom: 2px solid #262973;
+}
+
+#tekstdown {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+#tekstdown a {
+  padding: 0px 20px;
+}
+
+/*--------------------------main------------------------------------------*/
+
+  main {
+    background-image: url(grfx/mainbg.png);
+    margin-top: 130px;
+    margin-left: 400px;
+    width: 1000px;
+    height: 650px;
+    color: #fff;
+  }
+  #heightwerk {
+    height: 500px;
+  }
+  #heightwerk2 {
+    height: 300px;
+  }
+
+  main h1 {
+    margin-left: 70px;
+    width: 400px;
+    border-bottom: 1px solid #262973;
+    padding-bottom: 9px;
+    text-align: center;
+  }
+
+  #mainall {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #maincontainer {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 20px;
+    border: 2px solid #262973;
+    padding: 5px;
+  }
+
+  #maincontainer2 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 20px;
+    border: 2px solid #262973;
+    padding: 5px;
+    text-align: center;
+  }
+  #maincontainer2 a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    width: 100px;
+    padding: 15px;
+    margin: auto;
+  }
+  #maincontainer2 a:hover {
+    opacity: 0.5;
+  }
+  #maincontainer2 i {
+    display: block;
+  }
+
+  #maincontainer ul li {
+    padding: 10px 0px;
+  }
+
+  #imgtop {
+    width: 300px;
+    height: auto;
+  }
+  #imgdavinci {
+    width: 250px;
+    padding: 0 25px;
+  }
+  #cross {
+    font-size: 110px;
+    text-align: center;
+  }
+
+  #infonaastelkaar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #vraag, #andwoord {
+    list-style: none;
+    width: 200px;
+    display: inline-block;
+    padding: 0 10px;
+    margin-top: 20px;
+  }
+
+  #vraag {
+    border-right: 1px solid #262973;
+  }
+
+  #teksovermij {
+    margin-right: 20px;
+    padding: 50px;
+    font-size: 20px;
+    border: 2px solid #262973;
+    border-left: 0px;
+  }
+
+
+/*----------------------------aside--------------------------------*/
+
+aside {
+  width: 450px;
+  height: 700PX;
+  background-image: url(grfx/sidemenubtn.png);
+  position: absolute;
+  right: -400px;
+  top: 71px;
+  transition: ease-in-out 0.5s;
+  color: white;
+}
+aside:hover {
+  right: 0px;
+}
+
+aside h2 {
+  font-size: 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #262973;
+  margin: 10px 0px;
+}
+
+aside ul {
+  list-style: none;
+}
+
+#allaside {
+  margin-left: 70px;
+  width: 350px;
+}
+
+
+
+/*----------------------------------------------------------------------------------*/
+i {
+  margin: 0;
+}
