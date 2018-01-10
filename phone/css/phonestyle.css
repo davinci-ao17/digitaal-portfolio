@@ -10,10 +10,17 @@ body {
 }
 
 header {
-  font-size: 50px;
-  text-align: center;
-  color: #fff;
   background-color: rgb(9, 9, 36);
+  margin-bottom: 5px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header a {
+  color: #fff;
+  width: auto;
+  text-decoration: none;
 }
 
 nav {
@@ -23,21 +30,31 @@ nav {
   height: 100px;
   position: sticky;
   margin-bottom: 100px;
+  justify-content: space-around;
 }
 
 nav a {
   color: #fff;
   width: auto;
   text-align: center;
-  padding: 20px;
   font-size: 40px;
   text-decoration: none;
-  margin: auto;
+  padding: 20px;
+  width: auto;
+}
+
+h1 {
+  font-size: 60px;
+  display: inline;
 }
 
 #home {
   width: 50px;
   font-size: 50px;
+}
+
+#home i {
+  font-size: 80px;
 }
 
 #werkkeuzes, #opleidingkeuzes {
@@ -74,5 +91,5 @@ h2 {
 
 #imgmain {
   width: 400px;
-  height: 400px;
+  height: auto;
 }

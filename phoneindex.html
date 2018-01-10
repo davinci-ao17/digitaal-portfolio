@@ -4,29 +4,22 @@
     <meta charset="utf-8">
     <title>Digitaaal portfolio</title>
     <link rel="stylesheet" type="text/css" href="phone/css/phonestyle.css" />
-		<script src="https://use.fontawesome.com/3dc96aefb5.js"></script>
+    <script src="https://use.fontawesome.com/3dc96aefb5.js"></script>
+    <script src="phone/javascriptphone.js"></script>
   </head>
 
+  <header>
+      <div id="homeheader">
+        <a id="home" href="#"><i class="fa fa-home" aria-hidden="true"></i><h1>Digitaal Portfolio</h1></a>
+      </div>
+  </header>
+  <nav>
+    <a id="cv" href="phone/pages/overmijphone.html"><i class="fa fa-address-card-o" aria-hidden="true"></i> Mijn cv</a>
+    <a id="oplmenu" href="#" onclick="opleidingmenu()" ><i class="fa fa-graduation-cap" aria-hidden="true"></i> Opleidingen</a>
+    <a id="wrkmenu" href="#" onclick="werkmenu()" ><i class="fa fa-briefcase" aria-hidden="true"></i> Werk</a>
+  </nav>
+
   <body>
-    <header>
-      <h1>Digitaal Portfolio</h1>
-    </header>
-
-		<nav>
-			<a id="home" href="#"><i class="fa fa-home" aria-hidden="true"></i></a>
-			<a href="pages/overmij.html"><i class="fa fa-address-card-o" aria-hidden="true"></i> Mijn cv</a>
-			<a href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Opleidingen</a>
-			<div id="opleidingkeuzes">
-				<a href="pages/opleiding.html">Huidige opleiding</a>
-				<a href="pages/vorigeopleiding.html">Vorige opleidingen</a>
-			</div>
-			<a href="#"><i class="fa fa-briefcase" aria-hidden="true"></i> Werk</a>
-			<div id="werkkeuzes">
-				<a href="pages/werk.html">Huidige baan</a>
-				<a href="pages/vorigwerk.html">Vorige banen</a>
-			</div>
-		</nav>
-
     <main>
       <div id="maintop">
         <img id="imgmain" src="img/user.jpg" alt="Foto van mezelf">
@@ -38,4 +31,5 @@
         Verder werk bij Verspui, en geef ik gym op 1 avond in de week voor kinderen die op de basisschool zitten.
       </p>
     </main>
+  </body>
   </body>
