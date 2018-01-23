@@ -1,37 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Digitaaal portfolio</title>
-  <link rel="stylesheet" type="text/css" href="../css/phonestyle.css" />
-  <script src="https://use.fontawesome.com/3dc96aefb5.js"></script>
-  <script src="javascript.js"></script>
-</head>
-  <body>
-    <header>
-			<nav>
-				<div id="homeheader">
-					<a id="home" href="../phoneindex.html"><i class="fa fa-home fa-3x" aria-hidden="true"></i><h1>Digitaal Portfolio</h1></a>
-				</div>
-				<div id="tekstdown">
-						<a href="overmijphone.html"><i class="fa fa-address-card-o" aria-hidden="true"></i> Mijn cv</a>
-						<div id="opleiding">
-							<a href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Opleidingen</a>
-								<div id="opleidingkeuzes">
-									<a href="opleidingphone.html">Huidige opleiding</a>
-									<a href="vorigeopleidingphone.html">Vorige opleidingen</a>
-								</div>
-							</div>
-						<div id="werk">
-							<a href="#"><i class="fa fa-briefcase" aria-hidden="true"></i> Werk</a>
-							<div id="werkkeuzes">
-								<a href="werkphone.html">Huidige baan</a>
-								<a href="vorigwerkphone.html">Vorige banen</a>
-							</div>
-						</div>
-					</div>
-			</nav>
-		</header>
+  <head>
+    <meta charset="utf-8">
+    <title>Digitaaal portfolio</title>
+    <link rel="stylesheet" type="text/css" href="phone/css/phonestyle.css" />
+    <script src="https://use.fontawesome.com/3dc96aefb5.js"></script>
+    <script src="phone/javascriptphone.js"></script>
+  </head>
+
+  <header>
+      <div id="homeheader">
+        <a id="home" href="#"><i class="fa fa-home" aria-hidden="true"></i><h1>Digitaal Portfolio</h1></a>
+      </div>
+  </header>
+  <nav>
+    <a id="cv" href="phone/pages/overmijphone.html"><i class="fa fa-address-card-o" aria-hidden="true"></i> Mijn cv</a>
+    <a id="oplmenu" href="#" onclick="opleidingmenu()" ><i class="fa fa-graduation-cap" aria-hidden="true"></i> Opleidingen</a>
+    <a id="wrkmenu" href="#" onclick="werkmenu()" ><i class="fa fa-briefcase" aria-hidden="true"></i> Werk</a>
+  </nav>
 
     <main>
       <h1>Mijn huidige opleiding</h1>
