@@ -1,0 +1,95 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+body {
+  background-image: url(grfx/phonebg.jpg);
+  background-size: cover;
+}
+
+header {
+  background-color: rgb(9, 9, 36);
+  margin-bottom: 5px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header a {
+  color: #fff;
+  width: auto;
+  text-decoration: none;
+}
+
+nav {
+  background-color: rgb(9, 9, 36);
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  position: sticky;
+  margin-bottom: 100px;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #fff;
+  width: auto;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: none;
+  padding: 20px;
+  width: auto;
+}
+
+h1 {
+  font-size: 60px;
+  display: inline;
+}
+
+#home {
+  width: 50px;
+  font-size: 50px;
+}
+
+#home i {
+  font-size: 80px;
+}
+
+#werkkeuzes, #opleidingkeuzes {
+  display: none;
+}
+
+
+main {
+  background-color: rgb(9, 9, 36);
+  color: #fff;
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#maintop {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgb(38, 41, 115);
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-size: 60px;
+  padding: 30px;
+  padding-top: 80px;
+  border-top: 2px solid rgb(38, 41, 115);
+  margin: 20px;
+}
+
+#imgmain {
+  width: 400px;
+  height: auto;
+}
